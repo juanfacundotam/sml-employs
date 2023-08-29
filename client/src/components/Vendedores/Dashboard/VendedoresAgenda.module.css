@@ -1,0 +1,127 @@
+.table {
+    width: 97%;
+  }
+  .divTitle {
+    width: 98%;
+    display: flex;
+    height: fit-content;
+    justify-content: start;
+    align-content: start;
+    margin: 20px 0 30px 10px;
+  }
+  
+  .containerCard {
+    border: 1px solid green;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .buttonAdd {
+    background-color: #4c40cc;
+    color: rgb(245, 245, 245);
+    border-radius: 7px;
+    padding: 6px 25px;
+    font-size: 13px;
+  }
+  .buttonNivel {
+    background-color: rgb(202, 202, 202);
+    color: #39394b;
+    border-radius: 2px;
+    padding: 1px 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  .buttonNivelActive {
+    background-color: #38369e;
+    color: #39394b;
+    border-radius: 2px;
+    padding: 1px 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  
+  .tableRow {
+    position: relative;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 18% 9.5% 6% 5% 7% 12% 6% 18% 5% 5%;
+    margin-left: 25px;
+  }
+  
+  .tableCards {
+    display: grid;
+    /* grid-template-columns:  7% 15% 9% 6% 5% 7% 14% 17% 16% 6%; */
+    grid-template-columns:  17% 9% 6% 5% 5% 12% 5% 15% 15% 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #39394b;
+    font-size: 13px;
+    color: rgb(204, 203, 203);
+    margin: 12px;
+    padding: 9px;
+    min-height: 55px;
+    border-radius: 10px;
+  }
+  
+  .tableCell {
+    padding: 0;
+  }
+  .icon {
+    color: rgb(116, 136, 201);
+    font-size: 35px;
+    margin-right: 5px;
+  }
+  .iconInsta {
+    color: rgb(116, 136, 201);
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  /* @media screen and (max-width: 1850px) {
+      .tableRow {
+          grid-template-columns: 13% 24.5% 19% 19% 17% auto;
+      }
+      .tableCards {
+          grid-template-columns: 1% 24% 17% 19% 18% 4%;
+      }
+  }
+  @media screen and (max-width: 1500px) {
+      .tableRow {
+          grid-template-columns: 13% 24.5% 19% 19% 15% auto;
+      }
+      .tableCards {
+          grid-template-columns: 13% 24% 17% 19% 18% 5%;
+      }
+  }
+  @media screen and (max-width: 1350px) {
+      .tableRow {
+          grid-template-columns: 13% 24.5% 19% 18% 15.5% auto;
+      }
+      .tableCards {
+          grid-template-columns: 13% 24% 17% 19% 18% 5%;
+      }
+  }
+  @media screen and (max-width: 1110px) {
+      .tableRow {
+          grid-template-columns: 12% 22% 19% 20% 16% auto;
+      }
+      .tableCards {
+          grid-template-columns: 10% 20% 15% 20% 16% auto;
+      }
+  } */
+  
+  .closeEdit {
+  background-color: #e9424a;
+  border-radius: 10px;
+    position: absolute;
+    width: 35px;
+    font-size: 30px;
+    height: 35px;
+    right: 70px;
+  
+    /* "absolute bg-[#e9424a] text-1 text-white w-10 h-8 rounded-md cursor-pointer left-80" */
+  }
+  

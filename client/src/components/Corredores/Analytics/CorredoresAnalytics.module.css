@@ -1,0 +1,111 @@
+.buttonAdd {
+  background-color: #38369e;
+  color: rgb(202, 202, 202);
+  border-radius: 7px;
+  padding: 6px 25px;
+  font-size: 13px;
+}
+.buttonNivel {
+  background-color: rgb(202, 202, 202);
+  color: #39394B;
+  border-radius: 2px;
+  padding: 1px 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.buttonNivelActive {
+  background-color: #38369e;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 1px 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.tableHead {
+  color: rgb(189, 189, 189);
+  font-size: 12px;
+  font-weight: 100;
+  /* border: 1px solid violet; */
+}
+
+.tableRow {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 13% 20.8% 18.5% 21.5% 20.5% auto;
+  margin-left: 0px;
+}
+
+.tableCards {
+  display: grid;
+  grid-template-columns: 11% 19% 17% 19% 20% 3%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #39394b;
+  font-size: 14px;
+  color: rgb(204, 203, 203);
+  margin: 12px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.tableCell {
+  padding: 0;
+}
+
+.icon {
+  color: #4a47e6;
+  font-size: 30px;
+  margin-left: 6px;
+}
+
+.iconComplete {
+  color: #e4e738;
+  font-size: 33px;
+  margin-left: 6px;
+}
+
+.iconInsta {
+  color: rgb(116, 136, 201);
+  font-size: 25px;
+  margin-right: 5px;
+}
+.iconInsta {
+  color: rgb(116, 136, 201);
+  font-size: 25px;
+  margin-right: 5px;
+}
+@media screen and (max-width: 1850px) {
+  .tableRow {
+    grid-template-columns: 13% 25.2% 17% 20.8% 16.5% auto;
+  }
+  .tableCards {
+    grid-template-columns: 13% 24% 17% 19% 18% 4%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .tableRow {
+    grid-template-columns: 13% 24.5% 16.7% 20.3% 15% auto;
+  }
+  .tableCards {
+    grid-template-columns: 13% 24% 17% 19% 18% 5%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .tableRow {
+    grid-template-columns: 14% 23.5% 16.5% 20.5% 16% auto;
+  }
+  .tableCards {
+    grid-template-columns: 13% 24% 17% 19% 18% 5%;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .tableRow {
+    grid-template-columns: 13% 22% 15% 23% 15% auto;
+  }
+  .tableCards {
+    grid-template-columns: 10% 20% 15% 20% 16% auto;
+  }
+}

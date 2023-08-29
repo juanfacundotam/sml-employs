@@ -1,0 +1,22 @@
+
+
+.boton {
+    background-color: rgb(55, 55, 73);
+    border: 1px solid #e0dddd;
+    color: rgb(197, 196, 196);
+    text-align: center;
+    padding: 10px 10px;
+width: 100%;
+    /* margin-bottom: 30px; */
+    /* border-radius: 5px; */
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  
+  }
+  .boton:hover {
+    border: 1px solid white;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.68);
+  }
+  
+  

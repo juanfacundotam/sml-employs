@@ -1,0 +1,94 @@
+.table {
+  width: 97%;
+}
+.divTitle {
+  width: 98%;
+  display: flex;
+  height: fit-content;
+  justify-content: start;
+  align-content: start;
+  margin: 20px 0 30px 10px;
+}
+
+.containerCard {
+  border: 1px solid green;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.buttonAdd {
+  background-color: #4c40cc;
+  color: rgb(245, 245, 245);
+  border-radius: 7px;
+  padding: 6px 25px;
+  font-size: 13px;
+}
+.buttonNivel {
+  background-color: rgb(202, 202, 202);
+  color: #39394b;
+  border-radius: 2px;
+  padding: 1px 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.buttonNivelActive {
+  background-color: #38369e;
+  color: #39394b;
+  border-radius: 2px;
+  padding: 1px 10px;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.tableRow {
+  position: relative;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 19% 15% 8% 5% 7% 14.5% 18.5% 10%;
+  margin-left: 25px;
+}
+
+.tableCards {
+  display: grid;
+
+  grid-template-columns:  18% 15% 8% 5% 5% 15% 15% 15%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #39394b;
+  font-size: 13px;
+  color: rgb(204, 203, 203);
+  margin: 12px;
+  padding: 9px;
+  min-height: 55px;
+  border-radius: 10px;
+}
+
+.tableCell {
+  padding: 0;
+}
+.icon {
+  color: rgb(116, 136, 201);
+  font-size: 35px;
+  margin-right: 5px;
+}
+.iconInsta {
+  color: rgb(116, 136, 201);
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+
+.closeEdit {
+background-color: #e9424a;
+border-radius: 10px;
+  position: absolute;
+  width: 35px;
+  font-size: 30px;
+  height: 35px;
+  right: 70px;
+
+}

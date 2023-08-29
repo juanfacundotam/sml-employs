@@ -1,0 +1,88 @@
+.divPagination {
+  /* background-color: #39394B; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  margin: 15px 10px 0px 10px;
+  border-radius: 15px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0;
+  list-style: none;
+  z-index: 999;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: #39394b;
+  color: white;
+
+  margin: 3px;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.items:hover {
+  transform: scale(1.08);
+}
+.currentPage {
+  /* border: 2px solid rgb(48, 93, 241); */
+  background-color: purple;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+}
+
+.items a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 13px;
+
+  border-radius: 5px;
+  padding: 5px 5px 6px 5px;
+  color: rgb(255, 255, 255);
+}
+.items a:hover {
+  font-size: 11px;
+  transform: scale(1.02);
+}
+
+.itemsArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  /* border: 2px solid rgb(184, 184, 184); */
+  margin: 0px 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #39394b;
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* className={mx-1 px-4 py-2 rounded-lg ${currentPage === index + 1 ? 'bg-purple-500 text-white' : 'bg-[#39394B] text-white'
+}} */
+
+.textPagination button {
+  color: white;
+}
+.textPagination div {
+  color: white;
+}

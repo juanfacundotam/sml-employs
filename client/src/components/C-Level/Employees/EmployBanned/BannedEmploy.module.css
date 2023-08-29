@@ -1,0 +1,38 @@
+.tableHead {
+    color: rgb(189, 189, 189);
+    font-size: 12px;
+    font-weight: 100;
+  }
+  
+  .tableRow {
+    margin-top: 20px;
+    display: grid;
+  
+    grid-template-columns: 32% 33% 1% 1% auto;
+    margin-left: 5rem;
+  }
+  
+  .tableCards {
+    display: grid;
+    grid-template-columns: 25% 30% 12% 17%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #39394b;
+    font-size: 16px;
+    color: rgb(204, 203, 203);
+    margin: 12px;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .tableCell {
+    padding: 0;
+  }
+  
+  .icon {
+    color: rgb(116, 136, 201);
+    font-size: 23px;
+    margin-right: 5px;
+  }
+  
+  
