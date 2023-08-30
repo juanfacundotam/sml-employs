@@ -13,7 +13,7 @@ const getServerUrl = () => {
 
   if (hostname.includes("localhost")) {
     return "http://localhost:3001/api";
-  } else if (hostname.includes("ventas-jonavoe.vercel")) {
+  } else if (hostname.includes("sml-employs.vercel.app/")) {
     return "https://empleadosjonavoe.onrender.com/api";
   }
   // else if (hostname.includes("sml-app.com")) {

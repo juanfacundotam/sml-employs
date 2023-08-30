@@ -112,6 +112,8 @@ const Corredor = require("../../models/Corredor");
 const Freelancer = require("../../models/Freelancer");
 const Vendedor = require("../../models/Vendedor");
 const Lead = require("../../models/Lead");
+const Clevel = require("../../models/Clevel");
+const Leader = require("../../models/Leader");
 
 const limpiezaBaseFunction = async () => {
   const leadResult = await Lead.updateMany({
@@ -150,6 +152,8 @@ const limpiezaBaseFunction = async () => {
   const delCorredor = await Corredor.deleteMany({})
   const delFreelancer = await Freelancer.deleteMany({})
   const delVendedor = await Vendedor.deleteMany({})
+  const delLeader = await Leader.deleteMany({})
+  const delClevel = await Clevel.deleteMany({})
 
 
 
