@@ -107,6 +107,10 @@
 
 // module.exports = limpiezaBaseFunction;
 
+const Employees = require("../../models/Employees");
+const Corredor = require("../../models/Corredor");
+const Freelancer = require("../../models/Freelancer");
+const Vendedor = require("../../models/Vendedor");
 const Lead = require("../../models/Lead");
 
 const limpiezaBaseFunction = async () => {
@@ -142,6 +146,12 @@ const limpiezaBaseFunction = async () => {
       updateEnProceso: "",
     },
   });
+  const delEmployees = await Employees.deleteMany({})
+  const delCorredor = await Corredor.deleteMany({})
+  const delFreelancer = await Freelancer.deleteMany({})
+  const delVendedor = await Vendedor.deleteMany({})
+
+
 
   return leadResult;
 };

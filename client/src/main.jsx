@@ -13,11 +13,12 @@ const getServerUrl = () => {
 
   if (hostname.includes("localhost")) {
     return "http://localhost:3001/api";
-  } else if (hostname.includes("sml-app.vercel")) {
-    return "https://smlapp.onrender.com/api";
-  } else if (hostname.includes("sml-app.com")) {
-    return "https://sml-app.com/api";
+  } else if (hostname.includes("ventas-jonavoe.vercel")) {
+    return "https://empleadosjonavoe.onrender.com/api";
   }
+  // else if (hostname.includes("sml-app.com")) {
+  //   return "https://sml-app.com/api";
+  // }
 
   return "http://localhost:3001/api";
 };
